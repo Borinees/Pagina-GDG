@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    background-color: #0e004c;
+    color: #333;
+}
+
+main{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.card-intro{
+    display: grid;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+}
+
+.intro-titles{
+    margin: 0;
+    padding: 2px;
+    padding-left: 8px;
+}
+
+#devgroup{
+    font-size: 135%;
+}
+
+#meetup{
+    padding-left: 22%;
+    font-size:300%;
+}
+
+#local{
+    padding-left: 32%;
+}
+
+#network{
+    padding-left: 13%;
+}
+
+.card-desc{
+    margin: 40px;
+    padding: 20px;
+    color: white;
+    background-color: #003593;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.palestrantes{
+    margin-bottom: 2rem;
+}
+
+.card-palestrante{
+    background-color: rgb(170, 170, 170);
+    color: #fde403;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.loc-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*estilo de responsividade*/
+@media (min-width:768px){
+    main{
+        width: 60%;
+    }
+    .palestrantes{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+}
