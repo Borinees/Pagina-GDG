@@ -132,8 +132,15 @@ nav a{
     margin-top: 5px;
 }
 
+.card-desc h2{
+    margin-bottom: 20px;
+}
 
-
+.paragraph_about{
+    margin-bottom: 10px;
+    line-height: 1.5;
+    
+}
 
 
 /*estilo de responsividade*/
