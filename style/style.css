@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    background-color: #1E1E1E;
+    color: #ffffff;
+}
+
+main{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.card-intro{
+    display: grid;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+}
+
+.intro-titles{
+    margin: 0;
+    padding: 2px;
+    padding-left: 8px;
+}
+
+header{
+    background-color: #171717;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#devgroup{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#meetup{
+    font-size: 64px;
+    font-weight: 600;
+
+}
+
+#local{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#network{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.card-desc{
+    margin: 40px;
+    padding: 20px;
+    color: white;
+    background-color: #1E1E1E;
+    outline: 2px solid #4684E4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.palestrantes{
+    margin-bottom: 2rem;
+}
+
+.card-palestrante{
+    background-color: #1E1E1E;
+    color: #fde403;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#p1{
+    outline: 2px solid #D94A3C;
+}
+
+#p2{
+    outline: 2px solid #39A557;
+}
+
+#loc-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+    outline: 2px solid #4684E4;
+    position: center;
+}
+
+.mapa{
+    opacity: 85%;
+    border-radius: 1rem;
+}
+
+
+
+
+
+/*estilo de responsividade*/
+@media (min-width:768px){
+    main{
+        width: 60%;
+    }
+    .palestrantes{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+}
