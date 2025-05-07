@@ -10,6 +10,6 @@ Linguagens de criação de sites(HTML e CSS), Javascript.
 
 Figma(com link do modelo que pretendemos utilizar): https://www.figma.com/design/hthnp2KHDV7K5D1vD8NEyw/Untitled?node-id=0-1&t=X6p3vvFGIYAtqhdL-1
 
-Mind Meister(com link do mapa mental): https://mm.tt/app/map/3658748487?t=ntZRRpizJs
+Mind Meister(para criação do mapa mental, com objetivo de organizar ideias)
 
 Trello(para organização das tarefas): https://trello.com/b/cCPM5ckO/projeto-site-gdg
